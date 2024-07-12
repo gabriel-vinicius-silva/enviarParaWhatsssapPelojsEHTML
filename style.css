@@ -1,0 +1,115 @@
+/* Estilo geral */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Seção Hero */
+.hero {
+  background-color: #007bff;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.hero button {
+  background-color: #28a745;
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+}
+/* Estilos para inputs */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="email"] {
+  font-size: 16px;
+}
+
+textarea {
+  font-size: 14px;
+  resize: vertical;
+}
+
+/* Estilos para o foco nos inputs */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #28a745;
+}
+/* Estilos para o botão */
+button {
+  background-color: #28a745; /* Verde */
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover { /* Efeito hover */
+  background-color: #1e8435; /* Verde mais escuro */
+}
+
